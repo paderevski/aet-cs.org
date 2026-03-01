@@ -3,7 +3,7 @@ server {
 	listen 443 ssl;
 	server_name talon.aet-cs.org;
 
-	root /home/bitnami/talon;
+	root /home/bitnami/talon/frontend/dist;
 	index index.html index.htm index.nginx-debian.html;
 
 	location / {
